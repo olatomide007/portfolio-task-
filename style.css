@@ -1,0 +1,137 @@
+ *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+#index__body{
+  background-color: #324e6d;
+  margin: 0;
+  font-size: 21px;
+}
+
+.container{
+  width: 80%;
+  max-width: 950px;
+  margin: 3em auto;
+}
+/**
+.main__context{
+  text-align: center;
+}
+**/
+
+img{
+  width: 30%;
+  height: 16rem;
+  border: 10px solid white;
+  border-radius:50%; 
+  margin: 0 16em;
+}
+
+#name{
+  margin: 1.5em 0 0;
+  color: #fff;
+  text-align: center;
+}
+
+#profession{
+  font-weight: 600;
+  margin: 0 8em;
+  color: #fff;
+  
+}
+
+#profess__details{
+  margin: 2em 5em;
+  text-align: center;
+  color: #b0c0c5;
+}
+
+.link{
+ margin: 0 18.5em;
+ background-color: #324e6d;
+ border: 2px solid green;
+ color: #b0c0c5;
+ padding: 10px 20px;
+ text-decoration: none;
+}
+
+
+
+/** cv page**/
+#cv__body{
+  margin: 10em 0;
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+  text-align: center;
+}
+
+#underline{
+  background-color: grey;
+  height: 0.35em;
+  margin: 0 auto -0.7em;
+}
+
+h1{
+  font-weight: 100;
+  margin: 0 auto;
+}
+
+a{
+  color: rgb(98, 100, 250);
+}
+
+p{
+  margin: inherit 0;
+}
+
+.wrapper{
+  width: 80%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.vc__section{
+  margin: 3em auto;
+}
+
+h3{
+  background-color: rgb(226, 230, 231);
+  padding: 0.2em;
+}
+
+.text__year{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 768px){
+  img{
+    margin: 0 8em;
+    height: 5.5em;
+    border-width: 7px;
+  }
+
+
+  #profession{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .link{
+    margin: 0 5em;
+  }
+
+
+}
+
+
+
+
+
